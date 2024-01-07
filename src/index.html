@@ -1,0 +1,1044 @@
+<!-- The code you provided is an HTML document structure. Let's break it down: -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Your Name" />
+  <meta name="description" content="A brief description of your webpage" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="output.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <title>HOME</title>
+</head>
+
+<body class="font-sans">
+  <!-- header section start -->
+  <!-- The above code is creating a header section for a website. It includes a top section with contact
+information, login and registration links, and a language selection dropdown. The header also
+includes a navigation menu with links to different pages, courses, blog, and contact. It also has a
+shopping cart icon and a search box. The header is responsive and includes a mobile menu icon for
+smaller screens. -->
+  <header class="w-full text-primaryTextColor bg-primaryBg sm:h-16 md:h-20 lg:h-24 xl:h-28">
+    <!-- header top section -->
+    <div
+      class="w-full flex items-center justify-between flex-col sm:flex-row p-2 md:px-4 px-4 lg:px-14 text-xs md:text-sm text-[#6a6f73] flex-wrap">
+      <div class="flex sm:flex-row gap-5">
+        <h5 class="cursor-pointer">
+          <span class="text-green text-[16px]"><i class="ri-phone-line"></i></span>
+          +91 9052-242-342
+        </h5>
+        <a href="">
+          <h5 class="cursor-pointer">
+            <span class="text-green text-[16px]"><i class="ri-mail-open-line"></i></span>
+            abcd@gmail.com
+          </h5>
+        </a>
+      </div>
+
+      <div class="flex sm:flex-row gap-5 mt-2 sm:mt-0">
+        <a href="">
+          <h5 class="cursor-pointer">
+            <span class="text-green text-[16px]"><i class="ri-login-circle-line"></i></span>
+            Log In
+          </h5>
+        </a>
+        <a href="">
+          <h5 class="cursor-pointer">
+            <span class="text-green text-[16px]"><i class="ri-git-repository-private-line"></i></span>
+            Register
+          </h5>
+        </a>
+        <h5 class="cursor-pointer">
+          <span class="text-green text-[16px]"><i class="ri-global-line"></i></span>
+          <select class="outline-none cursor-pointer" name="" id="">
+            <option value="">English</option>
+            <option value="">Bangla</option>
+          </select>
+        </h5>
+      </div>
+    </div>
+    <!-- header top section end -->
+
+    <nav id="nav"
+      class="w-full mt-2 lg:mt-0 flex justify-between items-center  lg:border-t-2 sm:px-4 px-4 xl:px-14 bg-white fixedNav transition-all">
+
+      <div class="mb-4 sm:mb-0 md:flex lg:w-20 md:w-40">
+        <img class="w-52 h-auto" src="../assets/asset 4.png" alt="logo" />
+      </div>
+
+      <!-- nav right part -->
+
+      <div class="md:flex lg:w-3/4 font justify-between items-center capitalize w-full">
+        <!-- nav ul links -->
+        <ul
+          class="hidden relative z-[10] lg:flex  flex-col lg:flex-row gap-3 lg:gap-10 justify-center items-center font-bold text-xs md:text-sm  ml-5 ">
+
+          <li
+            class="cursor-pointer font-[roboto] hover:text-green transition-all  relative group h-[70px] flex items-center">
+            Home
+            <span><i class="ri-arrow-down-s-line"></i></span>
+            <!-- dropdown section start -->
+            <div class="dropdown group-hover:w-72 group-hover:h-32 ">
+              <ul class="text-black flex flex-col p-5">
+                <li>Demo 1</li>
+                <li>Demo 2</li>
+              </ul>
+            </div>
+            <!-- dropdown section end -->
+          </li>
+          </li>
+          <li class="cursor-pointer hover:text-green transition-all relative group h-[70px] flex items-center">
+            pages<span><i class="ri-arrow-down-s-line"></i></span>
+            <!-- dropdown section start -->
+            <div class="dropdown group-hover:w-[15rem] group-hover:h-32 ">
+              <ul class="text-black flex flex-col p-5">
+                <li class="font-[roboto]">Demo 1</li>
+                <li>Demo 2</li>
+              </ul>
+            </div>
+            <!-- dropdown section end -->
+          </li>
+          <li class="cursor-pointer hover:text-green transition-all relative group h-[70px] flex items-center">
+            Courses<span><i class="ri-arrow-down-s-line"></i></span>
+            <!-- dropdown section start -->
+            <div
+              class="dropdown grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  group-hover:w-[55rem] group-hover:h-72 ml-[-20rem] relative z-10 ">
+              <div class="w-full h-full border-2">
+                <section class="text-black text-center flex flex-col gap-2 group">
+                  <h3 class="underline-after pt-3 hover:text-green transition-all">Course 1</h3>
+                  <h4 class="course-name pt-3 text-green-transition ">Course 1</h4>
+                  <!-- Add more course items as needed -->
+                </section>
+              </div>
+              <div class="w-full h-full border-2">
+                <section class="text-black text-center flex flex-col gap-2">
+                  <h3 class="underline-after pt-3">Course 1</h3>
+                  <h4 class="course-name  text-green-transition pt-3">Course 1</h4>
+                  <!-- Add more course items as needed -->
+                </section>
+              </div>
+              <div class="w-full h-full border-2">
+                <section class="text-black text-center flex flex-col gap-2">
+                  <h3 class="underline-after pt-3">Course 1</h3>
+                  <h4 class="course-name  text-green-transition pt-3">Course 1</h4>
+                  <!-- Add more course items as needed -->
+                </section>
+              </div>
+              <div class="w-full h-full border-2">
+                <section class="text-black text-center flex flex-col gap-2">
+                  <h3 class="underline-after pt-3">Course 1</h3>
+                  <h4 class="course-name  text-green-transition pt-3">Course 1</h4>
+                  <!-- Add more course items as needed -->
+                </section>
+              </div>
+            </div>
+
+
+            <!-- dropdown section end -->
+          </li>
+          <li class="cursor-pointer hover:text-green transition-all relative group h-[70px] flex items-center">
+            Blog<span><i class="ri-arrow-down-s-line"></i></span>
+            <!-- dropdown section start -->
+            <div class="dropdown group-hover:w-[15rem] group-hover:h-32">
+              <ul class="text-black flex flex-col p-5">
+                <li>Demo 1</li>
+                <li>Demo 2</li>
+              </ul>
+            </div>
+            <!-- dropdown section end -->
+          </li>
+          <li class="cursor-pointer hover:text-green transition-all relative group h-[70px] flex items-center">
+            Contact<span><i class="ri-arrow-down-s-line"></i></span>
+            <!-- dropdown section start -->
+            <div class="dropdown group-hover:w-[15rem] group-hover:h-32">
+              <ul class="text-black flex flex-col p-5">
+                <li>Demo 1</li>
+                <li>Demo 2</li>
+              </ul>
+            </div>
+            <!-- dropdown section end -->
+          </li>
+
+
+
+        </ul>
+        <!-- nav ul links end -->
+
+        <!-- nav cart box start -->
+        <div class="relative p-2 cursor-pointer w-full justify-end flex">
+          <i class="ri-shopping-cart-line text-xl mr-6"></i>
+          <div
+            class="absolute top-[2px] right-2 text-white bg-green rounded-full w-6 h-6 flex items-center justify-center text-[13px]">
+            30
+            <!-- Replace with the actual quantity -->
+          </div>
+          <!-- Adding top border to indicate quantity -->
+          <div class="absolute top-0 right-2 w-6 h-1 bg-green"></div>
+        </div>
+        <!-- nav cart box end -->
+
+        <!-- nav right search box -->
+        <div class="relative hidden lg:flex">
+          <div class="absolute top-2 cursor-pointer right-2">
+            <i class="ri-search-line"></i>
+          </div>
+          <input class="w-24 md:w-48 h-10 border-[1.5px] border-green indent-4 outline-none text-xs md:text-sm"
+            type="text" name="" id="" placeholder="Search" />
+        </div>
+        <!-- search box end -->
+      </div>
+      <!-- nav right part end -->
+      <!-- mobile menu icon-->
+      <div id="mobileMenuIcon" class="lg:hidden cursor-pointer md:text-[3rem] text-[2rem] font-bold">
+        <i class="ri-menu-line"></i>
+      </div>
+      <!-- mobile menu icon end-->
+    </nav>
+  </header>
+  <!-- header section end -->
+  <!-- mobile menu list-->
+  <div id="mobileMenu"
+    class="lg:hidden hidden md:mt-14 fixed z-[99] border-2  sm:mt-14 0 px-4 w-full h-[70%] bg-[#ffffff] overflow-x-hidden flex-col gap-8 font-[roboto]">
+    <div class="relative w-full flex mt-5">
+      <input class="w-full md:w-full h-12 border-[1.5px]  border-green pl-4 outline-none text-xs md:text-sm" type="text"
+        placeholder="Search" />
+      <i class="ri-search-line absolute right-3 top-3 cursor-pointer md:text-2xl md:top-2"></i>
+    </div>
+
+    <!-- Menu Sections -->
+    <div class="menu-section ">
+      <!-- Section: Home menu -->
+      <ul class="menu-list">
+        <!-- Home -->
+        <li class="menu-item md:mb-5 group">
+          <!-- Main Home Item -->
+          <h5 class="cursor-pointer transition-all hover:text-green border-gray-300 relative block py-2 px-4">
+            <h5 class="text-3xl md:text-[3rem] font-bold group-hover:text-green">
+              Home
+            </h5>
+            <!-- Nested Menu -->
+            <ul class="text-[16px] ml-5 mb-5 mt-5 font-bold md:ml-20">
+              <li class="nav-item md:text-2xl hover:text-green">
+                <a class="nav-link active" href="#">Home Demo - One</a>
+              </li>
+              <li class="nav-item md:text-2xl hover:text-green">
+                <a class="nav-link" href="#">Home Demo - Two</a>
+              </li>
+              <li class="nav-item md:text-2xl hover:text-green">
+                <a class="nav-link" href="#">Home Demo - Three</a>
+              </li>
+            </ul>
+          </h5>
+        </li>
+
+        <!-- Courses -->
+        <li class="menu-item md:mb-5 group">
+          <!-- Main Courses Item -->
+          <h5 class="group cursor-pointer transition-all hover:text-green border-gray-300 relative block py-2 px-4">
+            <h5 class="text-3xl md:text-[3rem] font-bold group-hover:text-green">
+              Courses
+            </h5>
+            <!-- Nested Menu -->
+            <ul class="text-[16px] ml-5 mb-5 mt-5 font-bold md:ml-20">
+              <li class="nav-item md:text-2xl hover:text-green">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item md:text-2xl hover:text-green">
+                <a class="nav-link" href="#">Courses Details</a>
+              </li>
+            </ul>
+          </h5>
+        </li>
+
+        <!-- Pages -->
+        <li class="menu-item md:mb-5 group">
+          <!-- Main Pages Item -->
+          <h5 class="group cursor-pointer transition-all hover:text-green border-gray-300 relative block py-2 px-4">
+            <h5 class="text-3xl md:text-[3rem] font-bold group-hover:text-green">
+              Pages
+            </h5>
+            <!-- Nested Menu -->
+            <ul class="text-[16px] ml-5 mb-5 mt-5 font-bold">
+              <li class="">
+                <div class="">
+                  <div class="">
+                    <!-- Submenu Title and Items -->
+                    <ul class="md:ml-20 md:text-2xl">
+                      <li class="hover:text-green">
+                        <a href="#">Instructors</a>
+                      </li>
+                      <li class="hover:text-green">
+                        <a href="#">Instructor Profile</a>
+                      </li>
+                      <li class="hover:text-green">
+                        <a href="#">Become An Instructor</a>
+                      </li>
+                      <li class="hover:text-green"><a href="#">Events</a></li>
+                      <li class="hover:text-green">
+                        <a href="#">Event Details</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Add more columns and sub-menu sections as needed -->
+                </div>
+              </li>
+            </ul>
+          </h5>
+        </li>
+
+        <!-- Blog -->
+        <li class="group">
+          <a class="text-3xl md:text-[3rem] font-bold group-hover:text-green" href="#">Blog
+          </a>
+          <!-- Nested Menu -->
+          <ul class="text-[16px] ml-5 mb-5 mt-5 font-bold md:ml-20 md:text-2xl">
+            <li class="hover:text-green">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="hover:text-green">
+              <a class="nav-link" href="#">Blog Details</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- mobilemenu-downmavigation-animation -->
+    <div class="w-10 h-10 rounded-full bg-green bottom-[140px] fixed mobilemenu-downmavigation-animation"><i
+        class="ri-arrow-down-line arrow"></i></div>
+  </div>
+  <!-- The above code is creating a hero section for a website. It includes a background image, a search
+bar, and a list of popular courses. The hero section is divided into two parts: the left part and
+the right part. The left part contains the title, description, and search bar, while the right part
+contains an image and a course offer overlay section. -->
+
+  <!-- hero section start -->
+  <div class="w-full flex justify-center items-center md:mt-10 lg:mt-0">
+    <section
+      class="max-w-full bg-center bg-cover flex px-3 font-[roboto] gap-2 overflow-hidden items-center justify-center flex-col lg:flex-row text-center  lg:text-start"
+      style="background-image: url('../assets/asset 64.jpeg');">
+      <!-- hero left part start -->
+      <div class="hero-left w-full md:w-[100%] flex h-full flex-col md:mt-20 bg-no-repeat relative z-[1]">
+        <h4 class="text-green mt-5 lg:mt-0">FOR A BETTER FUTURE</h4>
+        <h2
+          class="mt-5 text-[2.4rem] lg:text-[4rem] tracking-tighter font-[800] lg:leading-[72px] text-primaryTextColor">
+          We Have All
+          Kinds Of <span class="text-green">Courses</span> Collection</h2>
+        <p class="text-dimTextColor mt-6 text-[0.8rem] lg:text-[1rem]">The experience of our instructors benefits your
+          career</p>
+        <div class="relative w-full h-12 mt-5">
+          <div
+            class="bg-green md:w-[15%] w-[20%] h-12 flex justify-center items-center cursor-pointer text-white absolute top-0 right-0 rounded-r-md text-xl">
+            <i class="ri-search-line"></i>
+          </div>
+          <input type="text" name="" id="" placeholder="Search"
+            class="md:w-[90%] w-[90%] h-12 indent-4 hover:border-[1px] shadow-[rgba(149, 157, 165, 0.2) 0px 8px 24px] border-transparent hover:border-green outline-none rounded-l-md">
+        </div>
+        <!-- Popular Courses Section -->
+        <div class="w-full flex flex-col mt-5   md:flex-row md:gap-6 flex-wrap">
+          <!-- Title: Popular Courses -->
+          <h3 class="text-primaryTextColor text-[1.3rem] font-semibold mb-3 md:w-[30%] md:mb-0">Popular Courses:</h3>
+
+          <div class="flex w-full md:w-[65%] gap-2 flex-wrap  justify-center items-center text-[14px]">
+            <!-- Course Button: Bangla -->
+            <div
+              class="w-[7rem]  lg::w-[8rem] scale-[] cursor-pointer flex justify-center items-center overflow-hidden btn-transition-1 h-8 rounded-3xl border-[1px] border-green relative group">
+              <h3 class="absolute z-10 text-primaryTextColor group-hover:text-white">Bangla</h3>
+            </div>
+
+            <!-- Course Button: English -->
+            <div
+              class="w-[7rem]  lg::w-[8rem] cursor-pointer flex justify-center items-center overflow-hidden btn-transition-2 h-8 rounded-3xl border-[1px] border-green relative group">
+              <h3 class="absolute z-10 text-primaryTextColor group-hover:text-white">English</h3>
+            </div>
+
+            <!-- Course Button: Geography -->
+            <div
+              class="w-[7rem]  lg::w-[8rem] cursor-pointer flex justify-center items-center overflow-hidden btn-transition-3 h-8 rounded-3xl border-[1px] border-green relative group">
+              <h3 class="absolute z-10 text-primaryTextColor group-hover:text-white">Geography</h3>
+            </div>
+
+            <!-- Course Button: Philosophy -->
+            <div
+              class="w-[7rem]  lg::w-[8rem] cursor-pointer flex justify-center items-center overflow-hidden btn-transition-4 h-8 rounded-3xl border-[1px] border-green relative group">
+              <h3 class="absolute z-10 text-primaryTextColor group-hover:text-white">Philosophy</h3>
+            </div>
+            <!-- Course Button: Math -->
+            <div
+              class="w-[7rem]  lg::w-[8rem] cursor-pointer flex justify-center items-center overflow-hidden btn-transition-5 h-8 rounded-3xl border-[1px] border-green relative group">
+              <h3 class="absolute z-10 text-primaryTextColor group-hover:text-white">Math</h3>
+            </div>
+            <!-- Course Button: Science -->
+            <div
+              class="w-[7rem]  lg::w-[8rem] cursor-pointer flex justify-center items-center overflow-hidden btn-transition-6 h-8 rounded-3xl border-[1px] border-green relative group">
+              <h3 class="absolute z-10 text-primaryTextColor group-hover:text-white">Science</h3>
+            </div>
+            <!-- Course Button: Computer -->
+            <div
+              class="w-[7rem]  lg::w-[8rem] cursor-pointer  overflow-hidden btn-transition-7 h-8 rounded-3xl border-[1px] border-green relative group">
+              <h3
+                class="absolute z-10 text-primaryTextColor group-hover:text-white w-full h-full flex justify-center items-center">
+                Computer</h3>
+            </div>
+            <!-- Course Button: History -->
+            <div
+              class="w-[7rem]  lg::w-[8rem] cursor-pointer flex justify-center items-center overflow-hidden btn-transition-8 h-8 rounded-3xl border-[1px] border-green relative group">
+              <h3 class="absolute z-10 text-primaryTextColor group-hover:text-white">History</h3>
+            </div>
+          </div>
+
+          <!-- background -->
+          <div class="absolute top-[-70px] w-full h-full z-[-1]">
+            <img src="../assets/asset 7.png" alt="">
+          </div>
+          <!-- background -->
+        </div>
+      </div>
+      <!-- hero left part end -->
+
+      <!-- hero right part  start -->
+      <div class="hero-right w-full md:w-[100%] flex justify-center items-center relative mt-10">
+        <div class="w-full"><img src="../assets/asset 5.png" class="object-cover w-full h-full" alt="img"></div>
+        <!-- hero section course offer overlay section start -->
+        <div
+          class="absolute cursor-pointer z-0 lg:right-0 lg:bottom-10 bottom-2 w-[80%] h-[5rem] md:w-9/12 md:h-[7rem] lg:w-72 lg:h-[6rem] rounded-xl bg-white flex hero-section-course-offer-section">
+          <div class="w-[50%] md:w-[30%] h-full flex justify-center items-center border-r-2 border-green">
+            <img src="../assets/pngwing.com.png" class="w-full h-full md:object-contain lg:object-cover mt-2" alt="">
+          </div>
+          <a href="" class="md:w-[70%] h-full flex justify-center items-center flex-col ml-2 p-2">
+            <div class="">
+              <h3 class="text-[12px] text-start md:text-xl lg:text-sm font-bold ">New additions courses published each
+                month</h3>
+              <h4 class="text-[12px] text-start md:text-[16px] lg:text-[12px]  mt-[2px]">Choose from 25,000 + online
+                video courses</h4>
+            </div>
+          </a>
+        </div>
+        <!-- hero section course offer section end -->
+      </div>
+      <!-- hero right part  end -->
+    </section>
+  </div>
+  <!-- hero section end -->
+
+
+
+  <!-- The above code is creating a section titled "Explore The Categories" with a heading. Inside the
+section, there is a swiper carousel that displays multiple slides representing different categories.
+Each slide has a background color, a border, and an emoji representing the category. The carousel
+allows the user to navigate through the categories using next and previous buttons. There is also a
+pagination at the bottom that indicates the current slide and allows the user to jump to a specific
+slide. -->
+  <!--Explore The Categories section start -->
+  <section class="w-full  mt-10 px-4 md:px-14 relative">
+    <h2
+      class="text-primaryTextColor text-xl md:text-2xl text-center w-full lg:text-start lg:text-[2.5rem] font-[900] font-[roboto]">
+      Explore The Categories</h2>
+    <!-- carts  -->
+    <!-- Your existing HTML code -->
+    <!-- The above code is creating a swiper carousel with multiple slides. Each slide represents a
+  🐱nd has a red background color. The swiper carousel allows the user to navigate through
+  the categories using the next and previous buttons. The pagination at the bottom indicates the
+  current slide and allows the user to jump to a specific slide. -->
+    <div class="swiper mySwiper mt-10 lg:h-[60vh]">
+      <div class="swiper-wrapper w-full gap-0">
+
+
+        <div
+          class="swiper-slide relative catergoriesCart flex justify-center items-center bg-secondaryBg border-b-4 hover:border-green border-[#646a6c70] rounded-md h-[40vh] transition-all after:content-['Hello_World'] md:after:bottom-[-50px]">
+          🐱</div>
+
+        <div
+          class="swiper-slide relative catergoriesCart flex justify-center items-center bg-secondaryBg border-b-4 hover:border-green border-[#646a6c70] rounded-md h-[40vh] transition-all after:content-['Hello_World'] md:after:bottom-[-50px]">
+          🐱</div>
+
+        <div
+          class="swiper-slide relative catergoriesCart flex justify-center items-center bg-secondaryBg border-b-4 hover:border-green border-[#646a6c70] rounded-md h-[40vh] transition-all after:content-['Hello_World'] md:after:bottom-[-50px]">
+          🐱</div>
+
+        <div
+          class="swiper-slide relative catergoriesCart flex justify-center items-center bg-secondaryBg border-b-4 hover:border-green border-[#646a6c70] rounded-md h-[40vh] transition-all after:content-['Hello_World'] md:after:bottom-[-50px]">
+          🐱</div>
+
+        <div
+          class="swiper-slide relative catergoriesCart flex justify-center items-center bg-secondaryBg border-b-4 hover:border-green border-[#646a6c70] rounded-md h-[40vh] transition-all after:content-['Hello_World'] md:after:bottom-[-50px]">
+          🐱</div>
+
+        <div
+          class="swiper-slide relative catergoriesCart flex justify-center items-center bg-secondaryBg border-b-4 hover:border-green border-[#646a6c70] rounded-md h-[40vh] transition-all after:content-['Hello_World'] md:after:bottom-[-50px]">
+          🐱</div>
+
+        <div
+          class="swiper-slide relative catergoriesCart flex justify-center items-center bg-secondaryBg border-b-4 hover:border-green border-[#646a6c70] rounded-md h-[40vh] transition-all after:content-['Hello_World'] md:after:bottom-[-50px]">
+          🐱</div>
+
+        <div
+          class="swiper-slide relative catergoriesCart flex justify-center items-center bg-secondaryBg border-b-4 hover:border-green border-[#646a6c70] rounded-md h-[40vh] transition-all after:content-['Hello_World'] md:after:bottom-[-50px]">
+          🐱</div>
+
+        <div
+          class="swiper-slide relative catergoriesCart flex justify-center items-center bg-secondaryBg border-b-4 hover:border-green border-[#646a6c70] rounded-md h-[40vh] transition-all after:content-['Hello_World'] md:after:bottom-[-50px]">
+          🐱</div>
+        <!-- Repeat the above swiper-slide for each card -->
+      </div>
+
+      <!-- Pagination -->
+      <div class="mt-10">
+        <div class="swiper-pagination mt-96 "></div>
+      </div>
+    </div>
+  </section>
+  <!--Explore The Categories section end -->
+
+  <!-- products section start -->
+  <section class="w-full   mt-10 px-4 md:px-14 relative  border-green flex justify-center items-center flex-col">
+    <h2
+      class="text-primaryTextColor text-xl md:text-2xl text-center w-full lg:text-start lg:text-[2.5rem] font-[900] font-[roboto] ">
+      Popular Courses</h2>
+    <!-- product filter tags names  -->
+    <div class="flex flex-wrap mt-10 gap-4 items-center justify-center">
+      <h4 class="courseName relative cursor-pointer product-filter-tags-names">All</h4>
+      <h4 class="courseName relative cursor-pointer transition-all">Bangla</h4>
+      <h4 class="courseName relative cursor-pointer transition-all">English</h4>
+      <h4 class="courseName relative cursor-pointer transition-all">Geography</h4>
+      <h4 class="courseName relative cursor-pointer transition-all">Philosophy</h4>
+      <h4 class="courseName relative cursor-pointer transition-all">Math</h4>
+      <h4 class="courseName relative cursor-pointer transition-all">Science</h4>
+      <h4 class="courseName relative cursor-pointer transition-all">History</h4>
+    </div>
+    <!-- product filter tags names end -->
+
+    <!-- course cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 md:gap-2 mt-10">
+      <!-- Repeat this block for each course -->
+      <div class="w-full h-[27rem] text-white rounded-md relative overflow-hidden">
+        <!-- course top label -->
+        <div class="w-[10rem] h-10 bg-green absolute left-[-50px] top-[10px] flex justify-center items-center transform rotate-[-45deg]">90% OFF</div>
+        <!-- course image -->
+        <img class="w-full h-48 object-cover" src="../assets/asset 20.jpeg" alt="Course Image">
+        <!-- course price -->
+        <h3 class="bg-accentColor absolute bottom-0 right-0 w-16 h-8 flex justify-center items-center rounded-tl-lg">₹ 100</h3>
+        <!-- course name or description -->
+        <h3 class="text-primaryTextColor font-extrabold font-[roboto] mt-5">Complete Guideline From Zero To Hero In Web Development</h3>
+        <!-- course reviews stars -->
+        <div class="flex gap-2 text-primaryTextColor justify-start items-center mt-1">
+          <div class="flex gap-1">
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+          </div>
+          <h3>5.00 <span class="text-green font-semibold">(15)</span></h3>
+        </div>
+        <!-- course type and total buy -->
+        <div class="flex w-full justify-between items-center capitalize mt-3 text-primaryTextColor">
+          <div class="flex gap-1">
+            <i class="ri-pages-line"></i>
+            <p>Pdf</p>
+          </div>
+          <div class="flex gap-1">
+            <i class="ri-user-line"></i>
+            <p><span>12</span> students</p>
+          </div>
+        </div>
+        <!-- add to cart section -->
+        <section class="flex justify-between items-center mt-7 capitalize text-primaryTextColor">
+          <div class="flex justify-center items-center gap-2">
+            <div class="w-[30px] h-[30px] bg-red-500 rounded-full"><!-- Your user image here --></div>
+            <p class="text-[14px]">Nuralam mondal</p>
+          </div>
+          <div class="flex justify-center items-center gap-2 p-2 rounded-sm bg-secondaryBg transition-all hover:text-white cursor-pointer hover:bg-green">
+            <i class="ri-shopping-cart-line"></i>
+            <p>add to bye</p>
+          </div>
+        </section>
+      </div>
+      <div class="w-full h-[27rem] text-white rounded-md relative overflow-hidden">
+        <!-- course top label -->
+        <div class="w-[10rem] h-10 bg-green absolute left-[-50px] top-[10px] flex justify-center items-center transform rotate-[-45deg]">90% OFF</div>
+        <!-- course image -->
+        <img class="w-full h-48 object-cover" src="../assets/asset 20.jpeg" alt="Course Image">
+        <!-- course price -->
+        <h3 class="bg-accentColor absolute bottom-0 right-0 w-16 h-8 flex justify-center items-center rounded-tl-lg">₹ 100</h3>
+        <!-- course name or description -->
+        <h3 class="text-primaryTextColor font-extrabold font-[roboto] mt-5">Complete Guideline From Zero To Hero In Web Development</h3>
+        <!-- course reviews stars -->
+        <div class="flex gap-2 text-primaryTextColor justify-start items-center mt-1">
+          <div class="flex gap-1">
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+          </div>
+          <h3>5.00 <span class="text-green font-semibold">(15)</span></h3>
+        </div>
+        <!-- course type and total buy -->
+        <div class="flex w-full justify-between items-center capitalize mt-3 text-primaryTextColor">
+          <div class="flex gap-1">
+            <i class="ri-pages-line"></i>
+            <p>Pdf</p>
+          </div>
+          <div class="flex gap-1">
+            <i class="ri-user-line"></i>
+            <p><span>12</span> students</p>
+          </div>
+        </div>
+        <!-- add to cart section -->
+        <section class="flex justify-between items-center mt-7 capitalize text-primaryTextColor">
+          <div class="flex justify-center items-center gap-2">
+            <div class="w-[30px] h-[30px] bg-red-500 rounded-full"><!-- Your user image here --></div>
+            <p class="text-[14px]">Nuralam mondal</p>
+          </div>
+          <div class="flex justify-center items-center gap-2 p-2 rounded-sm bg-secondaryBg transition-all hover:text-white cursor-pointer hover:bg-green">
+            <i class="ri-shopping-cart-line"></i>
+            <p>add to bye</p>
+          </div>
+        </section>
+      </div>
+      <div class="w-full h-[27rem] text-white rounded-md relative overflow-hidden">
+        <!-- course top label -->
+        <div class="w-[10rem] h-10 bg-green absolute left-[-50px] top-[10px] flex justify-center items-center transform rotate-[-45deg]">90% OFF</div>
+        <!-- course image -->
+        <img class="w-full h-48 object-cover" src="../assets/asset 20.jpeg" alt="Course Image">
+        <!-- course price -->
+        <h3 class="bg-accentColor absolute bottom-0 right-0 w-16 h-8 flex justify-center items-center rounded-tl-lg">₹ 100</h3>
+        <!-- course name or description -->
+        <h3 class="text-primaryTextColor font-extrabold font-[roboto] mt-5">Complete Guideline From Zero To Hero In Web Development</h3>
+        <!-- course reviews stars -->
+        <div class="flex gap-2 text-primaryTextColor justify-start items-center mt-1">
+          <div class="flex gap-1">
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+          </div>
+          <h3>5.00 <span class="text-green font-semibold">(15)</span></h3>
+        </div>
+        <!-- course type and total buy -->
+        <div class="flex w-full justify-between items-center capitalize mt-3 text-primaryTextColor">
+          <div class="flex gap-1">
+            <i class="ri-pages-line"></i>
+            <p>Pdf</p>
+          </div>
+          <div class="flex gap-1">
+            <i class="ri-user-line"></i>
+            <p><span>12</span> students</p>
+          </div>
+        </div>
+        <!-- add to cart section -->
+        <section class="flex justify-between items-center mt-7 capitalize text-primaryTextColor">
+          <div class="flex justify-center items-center gap-2">
+            <div class="w-[30px] h-[30px] bg-red-500 rounded-full"><!-- Your user image here --></div>
+            <p class="text-[14px]">Nuralam mondal</p>
+          </div>
+          <div class="flex justify-center items-center gap-2 p-2 rounded-sm bg-secondaryBg transition-all hover:text-white cursor-pointer hover:bg-green">
+            <i class="ri-shopping-cart-line"></i>
+            <p>add to bye</p>
+          </div>
+        </section>
+      </div>
+      <div class="w-full h-[27rem] text-white rounded-md relative overflow-hidden">
+        <!-- course top label -->
+        <div class="w-[10rem] h-10 bg-green absolute left-[-50px] top-[10px] flex justify-center items-center transform rotate-[-45deg]">90% OFF</div>
+        <!-- course image -->
+        <img class="w-full h-48 object-cover" src="../assets/asset 20.jpeg" alt="Course Image">
+        <!-- course price -->
+        <h3 class="bg-accentColor absolute bottom-0 right-0 w-16 h-8 flex justify-center items-center rounded-tl-lg">₹ 100</h3>
+        <!-- course name or description -->
+        <h3 class="text-primaryTextColor font-extrabold font-[roboto] mt-5">Complete Guideline From Zero To Hero In Web Development</h3>
+        <!-- course reviews stars -->
+        <div class="flex gap-2 text-primaryTextColor justify-start items-center mt-1">
+          <div class="flex gap-1">
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+          </div>
+          <h3>5.00 <span class="text-green font-semibold">(15)</span></h3>
+        </div>
+        <!-- course type and total buy -->
+        <div class="flex w-full justify-between items-center capitalize mt-3 text-primaryTextColor">
+          <div class="flex gap-1">
+            <i class="ri-pages-line"></i>
+            <p>Pdf</p>
+          </div>
+          <div class="flex gap-1">
+            <i class="ri-user-line"></i>
+            <p><span>12</span> students</p>
+          </div>
+        </div>
+        <!-- add to cart section -->
+        <section class="flex justify-between items-center mt-7 capitalize text-primaryTextColor">
+          <div class="flex justify-center items-center gap-2">
+            <div class="w-[30px] h-[30px] bg-red-500 rounded-full"><!-- Your user image here --></div>
+            <p class="text-[14px]">Nuralam mondal</p>
+          </div>
+          <div class="flex justify-center items-center gap-2 p-2 rounded-sm bg-secondaryBg transition-all hover:text-white cursor-pointer hover:bg-green">
+            <i class="ri-shopping-cart-line"></i>
+            <p>add to bye</p>
+          </div>
+        </section>
+      </div>
+      <div class="w-full h-[27rem] text-white rounded-md relative overflow-hidden">
+        <!-- course top label -->
+        <div class="w-[10rem] h-10 bg-green absolute left-[-50px] top-[10px] flex justify-center items-center transform rotate-[-45deg]">90% OFF</div>
+        <!-- course image -->
+        <img class="w-full h-48 object-cover" src="../assets/asset 20.jpeg" alt="Course Image">
+        <!-- course price -->
+        <h3 class="bg-accentColor absolute bottom-0 right-0 w-16 h-8 flex justify-center items-center rounded-tl-lg">₹ 100</h3>
+        <!-- course name or description -->
+        <h3 class="text-primaryTextColor font-extrabold font-[roboto] mt-5">Complete Guideline From Zero To Hero In Web Development</h3>
+        <!-- course reviews stars -->
+        <div class="flex gap-2 text-primaryTextColor justify-start items-center mt-1">
+          <div class="flex gap-1">
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+          </div>
+          <h3>5.00 <span class="text-green font-semibold">(15)</span></h3>
+        </div>
+        <!-- course type and total buy -->
+        <div class="flex w-full justify-between items-center capitalize mt-3 text-primaryTextColor">
+          <div class="flex gap-1">
+            <i class="ri-pages-line"></i>
+            <p>Pdf</p>
+          </div>
+          <div class="flex gap-1">
+            <i class="ri-user-line"></i>
+            <p><span>12</span> students</p>
+          </div>
+        </div>
+        <!-- add to cart section -->
+        <section class="flex justify-between items-center mt-7 capitalize text-primaryTextColor">
+          <div class="flex justify-center items-center gap-2">
+            <div class="w-[30px] h-[30px] bg-red-500 rounded-full"><!-- Your user image here --></div>
+            <p class="text-[14px]">Nuralam mondal</p>
+          </div>
+          <div class="flex justify-center items-center gap-2 p-2 rounded-sm bg-secondaryBg transition-all hover:text-white cursor-pointer hover:bg-green">
+            <i class="ri-shopping-cart-line"></i>
+            <p>add to bye</p>
+          </div>
+        </section>
+      </div>
+      <div class="w-full h-[27rem] text-white rounded-md relative overflow-hidden">
+        <!-- course top label -->
+        <div class="w-[10rem] h-10 bg-green absolute left-[-50px] top-[10px] flex justify-center items-center transform rotate-[-45deg]">90% OFF</div>
+        <!-- course image -->
+        <img class="w-full h-48 object-cover" src="../assets/asset 20.jpeg" alt="Course Image">
+        <!-- course price -->
+        <h3 class="bg-accentColor absolute bottom-0 right-0 w-16 h-8 flex justify-center items-center rounded-tl-lg">₹ 100</h3>
+        <!-- course name or description -->
+        <h3 class="text-primaryTextColor font-extrabold font-[roboto] mt-5">Complete Guideline From Zero To Hero In Web Development</h3>
+        <!-- course reviews stars -->
+        <div class="flex gap-2 text-primaryTextColor justify-start items-center mt-1">
+          <div class="flex gap-1">
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+          </div>
+          <h3>5.00 <span class="text-green font-semibold">(15)</span></h3>
+        </div>
+        <!-- course type and total buy -->
+        <div class="flex w-full justify-between items-center capitalize mt-3 text-primaryTextColor">
+          <div class="flex gap-1">
+            <i class="ri-pages-line"></i>
+            <p>Pdf</p>
+          </div>
+          <div class="flex gap-1">
+            <i class="ri-user-line"></i>
+            <p><span>12</span> students</p>
+          </div>
+        </div>
+        <!-- add to cart section -->
+        <section class="flex justify-between items-center mt-7 capitalize text-primaryTextColor">
+          <div class="flex justify-center items-center gap-2">
+            <div class="w-[30px] h-[30px] bg-red-500 rounded-full"><!-- Your user image here --></div>
+            <p class="text-[14px]">Nuralam mondal</p>
+          </div>
+          <div class="flex justify-center items-center gap-2 p-2 rounded-sm bg-secondaryBg transition-all hover:text-white cursor-pointer hover:bg-green">
+            <i class="ri-shopping-cart-line"></i>
+            <p>add to bye</p>
+          </div>
+        </section>
+      </div>
+      <div class="w-full h-[27rem] text-white rounded-md relative overflow-hidden">
+        <!-- course top label -->
+        <div class="w-[10rem] h-10 bg-green absolute left-[-50px] top-[10px] flex justify-center items-center transform rotate-[-45deg]">90% OFF</div>
+        <!-- course image -->
+        <img class="w-full h-48 object-cover" src="../assets/asset 20.jpeg" alt="Course Image">
+        <!-- course price -->
+        <h3 class="bg-accentColor absolute bottom-0 right-0 w-16 h-8 flex justify-center items-center rounded-tl-lg">₹ 100</h3>
+        <!-- course name or description -->
+        <h3 class="text-primaryTextColor font-extrabold font-[roboto] mt-5">Complete Guideline From Zero To Hero In Web Development</h3>
+        <!-- course reviews stars -->
+        <div class="flex gap-2 text-primaryTextColor justify-start items-center mt-1">
+          <div class="flex gap-1">
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+          </div>
+          <h3>5.00 <span class="text-green font-semibold">(15)</span></h3>
+        </div>
+        <!-- course type and total buy -->
+        <div class="flex w-full justify-between items-center capitalize mt-3 text-primaryTextColor">
+          <div class="flex gap-1">
+            <i class="ri-pages-line"></i>
+            <p>Pdf</p>
+          </div>
+          <div class="flex gap-1">
+            <i class="ri-user-line"></i>
+            <p><span>12</span> students</p>
+          </div>
+        </div>
+        <!-- add to cart section -->
+        <section class="flex justify-between items-center mt-7 capitalize text-primaryTextColor">
+          <div class="flex justify-center items-center gap-2">
+            <div class="w-[30px] h-[30px] bg-red-500 rounded-full"><!-- Your user image here --></div>
+            <p class="text-[14px]">Nuralam mondal</p>
+          </div>
+          <div class="flex justify-center items-center gap-2 p-2 rounded-sm bg-secondaryBg transition-all hover:text-white cursor-pointer hover:bg-green">
+            <i class="ri-shopping-cart-line"></i>
+            <p>add to bye</p>
+          </div>
+        </section>
+      </div>
+      <div class="w-full h-[27rem] text-white rounded-md relative overflow-hidden">
+        <!-- course top label -->
+        <div class="w-[10rem] h-10 bg-green absolute left-[-50px] top-[10px] flex justify-center items-center transform rotate-[-45deg]">90% OFF</div>
+        <!-- course image -->
+        <img class="w-full h-48 object-cover" src="../assets/asset 20.jpeg" alt="Course Image">
+        <!-- course price -->
+        <h3 class="bg-accentColor absolute bottom-0 right-0 w-16 h-8 flex justify-center items-center rounded-tl-lg">₹ 100</h3>
+        <!-- course name or description -->
+        <h3 class="text-primaryTextColor font-extrabold font-[roboto] mt-5">Complete Guideline From Zero To Hero In Web Development</h3>
+        <!-- course reviews stars -->
+        <div class="flex gap-2 text-primaryTextColor justify-start items-center mt-1">
+          <div class="flex gap-1">
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+            <div class=fill-green><i class="ri-star-line"></i></div>
+          </div>
+          <h3>5.00 <span class="text-green font-semibold">(15)</span></h3>
+        </div>
+        <!-- course type and total buy -->
+        <div class="flex w-full justify-between items-center capitalize mt-3 text-primaryTextColor">
+          <div class="flex gap-1">
+            <i class="ri-pages-line"></i>
+            <p>Pdf</p>
+          </div>
+          <div class="flex gap-1">
+            <i class="ri-user-line"></i>
+            <p><span>12</span> students</p>
+          </div>
+        </div>
+        <!-- add to cart section -->
+        <section class="flex justify-between items-center mt-7 capitalize text-primaryTextColor">
+          <div class="flex justify-center items-center gap-2">
+            <div class="w-[30px] h-[30px] bg-red-500 rounded-full"><!-- Your user image here --></div>
+            <p class="text-[14px]">Nuralam mondal</p>
+          </div>
+          <div class="flex justify-center items-center gap-2 p-2 rounded-sm bg-secondaryBg transition-all hover:text-white cursor-pointer hover:bg-green">
+            <i class="ri-shopping-cart-line"></i>
+            <p>add to bye</p>
+          </div>
+        </section>
+      </div>
+      <!-- Repeat this block for each course -->
+    </div>
+    
+    <a href=""><button class=" p-3 rounded-md transition-all btn-transition-9 relative overflow-hidden hover:text-white border-[1px] text-primaryTextColor  text-center mt-10 capitalize px-5"><p class="relative z-[3]">view all courses</p></button></a>
+  </section>
+  <!--products  section end -->
+
+  <!-- blog section  -->
+  <section class="w-full px-4 md:px-14">
+    <!-- Heading -->
+    <h2 class="text-primaryTextColor mt-10 text-2xl md:text-4xl text-center lg:text-start lg:text-5xl font-bold font-roboto">
+      Latest From Our Blogs
+    </h2>
+  
+    <!-- Blog Cards Container -->
+    <div class="flex flex-wrap justify-center mt-8">
+      <!-- Individual Blog Cards (Repeat this block for each blog post) -->
+      <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+        <div class="h-[35vh] bg-secondaryBg"></div>
+        <div class="mt-4">
+          <p class="text-gray-600 text-lg font-normal">Blog Title</p>
+          <p class="text-gray-500 text-sm">Published on: Date</p>
+        </div>
+      </div>
+  
+      <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+        <div class="h-[35vh] bg-secondaryBg"></div>
+        <div class="mt-4">
+          <p class="text-gray-600 text-lg font-normal">Blog Title</p>
+          <p class="text-gray-500 text-sm">Published on: Date</p>
+        </div>
+      </div>
+  
+      <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+        <div class="h-[35vh] bg-secondaryBg"></div>
+        <div class="mt-4">
+          <p class="text-gray-600 text-lg font-normal">Blog Title</p>
+          <p class="text-gray-500 text-sm">Published on: Date</p>
+        </div>
+      </div>
+  
+      <div class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 px-4 mb-8">
+        <div class="h-[35vh] bg-secondaryBg"></div>
+        <div class="mt-4">
+          <p class="text-gray-600 text-lg font-normal">Blog Title</p>
+          <p class="text-gray-500 text-sm">Published on: Date</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- blog section  -->
+
+
+  <!-- Login -->
+  <!-- The above code is creating a login form for a website. It includes a heading "Join Our Community", a
+paragraph describing the website, and a form for users to enter their email address and password.
+The form has input fields for email and password, and a submit button for logging in. Below the
+form, there is a message for users who don't have an account, with a link to sign up. -->
+  <section class="w-full min-h-screen px-4 bg-gray-100 flex items-center justify-center flex-col">
+    <h2 class="text-primaryTextColor text-2xl md:text-4xl font-bold mt-8 lg:text-left">Join Our Community</h2>
+    <p class="text-gray-600 text-lg md:text-2xl font-normal mt-3 lg:text-left max-w-screen-md text-center lg:text-left">
+      Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut libero malesuada
+      feugiat. Proin eget tortor risus.
+    </p>
+    <div class="w-full max-w-screen-md p-8 rounded-lg  mt-8">
+      <h2 class="text-primaryTextColor text-base md:text-xl font-bold text-center mb-6">
+        Login to Your Account
+      </h2>
+      <form action="#" method="POST" class="space-y-4">
+        <div>
+          <label for="email" class="block text-gray-600 text-sm font-medium mb-2">Email Address</label>
+          <input type="email" id="email" placeholder="Enter Your Email" name="email"
+            class="w-full h-12 px-4 border-2 border-gray-300 rounded focus:outline-none focus:ring focus:border-primaryColor"
+            required>
+        </div>
+        <div>
+          <label for="password" class="block text-gray-600 text-sm font-medium mb-2">Password</label>
+          <input type="" id="password" placeholder="Enter Your Password" name="password"
+            class="password w-full h-12 px-4 border-2 border-gray-300 rounded focus:outline-none focus:ring focus:border-primaryColor"
+            required>
+
+        </div>
+        <button type="submit"
+          class="w-full bg-primaryColor text-white bg-green py-2 rounded focus:outline-none hover:bg-primaryColorDark transition">
+          Login
+        </button>
+      </form>
+      <p class="text-gray-600 text-sm mt-4 text-center lg:text-left">
+        Don't have an account? <a href="#" class="text-green">Sign up here</a>.
+      </p>
+    </div>
+  </section>
+  <!-- Login -->
+
+
+
+  <footer class="w-full bg-navy  h-auto px-4 py-8 md:py-16 text-white ">
+<!-- The above code is creating a footer section for a website. It includes a logo, description, and
+social media icons. It also includes sections for courses, products, and contact information. The
+layout is responsive, with different sections displayed based on the screen size. -->
+    <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center">
+      
+      <!-- Part one - Logo, Description, Social Media Icons -->
+      <div class="mb-8 md:mb-0 md:w-1/4">
+        <div class="mb-4"><img src="../assets/asset 63.png" alt="Logo"></div>
+        <p class="text-[#9f9d9d] text-sm md:text-base font-normal">Vivamus suscipit tortor eget felis porttitor volutpat. Donec rutrum congue leo eget malesuada. Curabitur Nulla porttitor accumsan tincidunt.</p>
+        <div class="flex mt-4 gap-3">
+          <div class="flex items-center cursor-pointer justify-center w-10 h-10 hover:bg-green transition-all rounded-sm text-white bg-darkGray">
+            <i class="ri-facebook-fill"></i>
+          </div>
+          <div class="flex items-center cursor-pointer justify-center w-10 h-10 hover:bg-green transition-all rounded-sm text-white bg-darkGray">
+            <i class="ri-whatsapp-line"></i>
+          </div>
+          <div class="flex items-center cursor-pointer justify-center w-10 h-10 hover:bg-green transition-all rounded-sm text-white bg-darkGray">
+            <i class="ri-instagram-line"></i>
+          </div>
+          <div class="flex items-center cursor-pointer justify-center w-10 h-10 hover:bg-green transition-all rounded-sm text-white bg-darkGray">
+            <i class="ri-mail-open-line"></i>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Tablet Layout -->
+      <div class=" md:flex  w-full lg:w-3/4 ">
+        <!-- Define your footer content as needed -->
+        <div class="mb-8 w-full md:w-1/2 lg:w-1/4">
+          <h3 class="text-white text-xl font-bold mb-4 lg:text-3xl">Courses</h3>
+          <ul class="text-[14px] flex flex-col gap-3 tracking-wide">
+            <li class="footer-ul-li lg:text-base"><a href="#">Course 1</a></li>
+            <li class="footer-ul-li lg:text-base"><a href="#">Course 2</a></li>
+            <li class="footer-ul-li lg:text-base"><a href="#">Course 3</a></li>
+            <li class="footer-ul-li lg:text-base"><a href="#">Course 4</a></li>
+          </ul>
+        </div>
+       
+        <div class="mb-8 w-full md:w-1/2 lg:w-1/4">
+          <h3 class="text-white text-xl font-bold mb-4 lg:text-3xl">Courses</h3>
+          <ul class="text-[14px] flex flex-col gap-3 tracking-wide">
+            <li class="footer-ul-li lg:text-base"><a href="#">product 1</a></li>
+            <li class="footer-ul-li lg:text-base"><a href="#">product 2</a></li>
+            <li class="footer-ul-li lg:text-base"><a href="#">product 3</a></li>
+            <li class="footer-ul-li lg:text-base"><a href="#">product 4</a></li>
+          </ul>
+        </div>
+
+        <div class="mb-8 w-full md:w-1/2 lg:w-1/4">
+          <h3 class="text-white text-xl font-bold mb-4 lg:text-3xl">Contact</h3>
+          <ul class="text-[14px] flex flex-col gap-2">
+            <li class="flex items-center lg:text-base">
+              <i class="ri-mail-line text-green mr-2"></i>
+              Email: contact@example.com
+            </li>
+            <li class="flex items-center lg:text-base">
+              <i class="ri-phone-line text-green mr-2"></i>
+              Phone: +1 234 567 890
+            </li>
+            <li class="flex items-center lg:text-base">
+              <i class="ri-map-pin-line text-green mr-2"></i>
+              Address: 123 Main Street, Cityville
+            </li>
+            <!-- Add more contact information as needed -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+
+
+  <!-- The above code is creating a button with the id "scrollToTopBtn" and a label "Scroll to Top".
+   When the button is clicked, it will call the JavaScript function "scrollToTop()" to scroll the
+   page to the top. -->
+  <div id="scrollToTopBtn"
+    class="cursor-pointer w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center bg-green text-white fixed right-5 bottom-6 z-[99]">
+    <i class="ri-arrow-up-s-line"></i>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
